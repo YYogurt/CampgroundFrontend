@@ -1,0 +1,42 @@
+.menucontainer {
+    height:68px;
+    background-color: rgb(72 43 17);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 30;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+}
+
+.logoimg {
+    display: flex;
+    align-items: left;
+    height: 100%;
+    width: auto;
+
+}
+
+
+.itemcontainer {
+    width: 120px;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    margin-left:0px;
+    margin-right: 0px;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    color:white;
+    font: bolder;
+    font-size: large;
+}
+
+.itemcontainer:hover {
+    transition: 500ms;
+    font-size: x-large;
+    color: rgb(255, 255, 181);
+}
